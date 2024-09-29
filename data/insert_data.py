@@ -111,7 +111,7 @@ class DataInserter:
 
 
 def main():
-    data_folder = 'data/processed_data'
+    data_folder = 'processed_data'
     Session = sessionmaker(bind=engine)
     session = Session()
 

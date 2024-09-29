@@ -5,10 +5,8 @@ from sqlalchemy import (
     DateTime, ForeignKey
     )
 from sqlalchemy.orm import declarative_base, relationship, sessionmaker
-from dotenv import load_dotenv
 
 
-load_dotenv()
 # Get environment variables
 DATABASE_URL = (
     f"postgresql://{os.getenv('POSTGRES_USER')}:"

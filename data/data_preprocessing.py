@@ -152,7 +152,7 @@ class DataProcessor:
 
 
 # Usage of the class
-raw_data_folder = 'data/raw_data'
-processed_data_folder = 'data/processed_data'
+raw_data_folder = 'raw_data'
+processed_data_folder = 'processed_data'
 processor = DataProcessor(raw_data_folder, processed_data_folder)
 processor.process_files()

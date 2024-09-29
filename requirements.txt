@@ -6,3 +6,5 @@ langchain-core
 google-generativeai
 pandas
 psycopg2-binary
+sqlalchemy
+gpt4all
