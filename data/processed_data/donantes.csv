@@ -1,0 +1,611 @@
+numero,nombre,tipo,contacto,correo,telefono,observaciones,tipo_contribuyente,cuit,alta,baja,activo,frecuencia,importe,nro_cuenta,fecha_donacion
+D00001,TechNova Solutions S.R.L,Empresa,Contacto A,TechNova Solutions@example.com,(011) 50000001,Observación 1,Responsable Inscripto,20123456789,2024-02-26,2024-04-01,NO,Mensual,292.732,402.101,
+D00002,EnergiaPlus S.A,Empresa,Contacto B,EnergiaPlus S.A.@example.com,(011) 50000002,Observación 2,Monotributista,21234567890,2024-01-12,2024-04-01,NO,Bimestral,326.439,403.101,
+D00003,Grupo Delta S.R.L,Empresa,Contacto C,Grupo Delta@example.com,(011) 50000003,Observación 3,Responsable Inscripto,22345678901,2024-06-08,,SI,Anual,276.92,403.101,
+D00004,Inova Global S.R.L,Empresa,Contacto D,Inova Global@example,(011) 50000004,Observación 4,Monotributista,23456789012,2024-02-11,2024-04-01,NO,Mensual,406.733,402.101,
+D00005,Vanguardia Consultora S.R.L,Empresa,Contacto E,Vanguardia Consultora@example.com,(011) 50000005,Observación 5,Responsable Inscripto,24567890123,2024-05-29,,SI,Bimestral,352.572,403.101,
+D00006,EcoTech Argentina ,Empresa,Contacto F,EcoTech Argentina@example.com,(011) 50000006,Observación 6,Monotributista,25678901234,2024-02-07,2024-04-01,NO,Anual,499.223,403.101,
+D00007,NexGen Industries S.R.L,Empresa,Contacto G,NexGen Industries@example.com,(011) 50000007,Observación 7,Responsable Inscripto,26789012345,2024-06-26,,SI,Mensual,344.73,402.101,
+D00008,RedHorizonte S.R.L,Empresa,Contacto H,RedHorizonte@example.com,(011) 50000008,Observación 8,Monotributista,27890123456,,,SI,Bimestral,489.625,403.101,
+D00009,Optima Logística S.R.L,Empresa,Contacto I,Optima Logística@example.com,(011) 50000009,Observación 9,Responsable Inscripto,28901234567,2024-05-17,,SI,Anual,428.367,403.101,
+D00010,Punto Verde S.R.L,Empresa,Contacto J,Punto Verde@example.com,(011) 50000010,Observación 10,Monotributista,29012345678,2024-04-01,,SI,Mensual,362.84,402.101,
+D00011,Zenith Digital S.R.L,Empresa,Contacto K,Zenith Digital@example.com,(011) 50000011,Observación 11,Responsable Inscripto,20123456790,2024-03-16,2024-04-01,NO,Bimestral,152.834,403.101,
+D00012,CreaTech S.R.L,Empresa,Contacto L,CreaTech S.R.L.@example.com,(011) 50000012,Observación 12,Monotributista,21234567801,2024-04-15,,SI,Anual,175.31,403.101,
+D00013,Alfa Innovaciones S.R.L,Empresa,Contacto M,Alfa Innovaciones@example.com,(011) 50000013,Observación 13,Responsable Inscripto,22345678912,2024-02-04,2024-04-01,NO,Mensual,417.633,402.101,
+D00013,Alfa Innovaciones S.R.L,Empresa,Contacto M,Alfa Innovaciones@example.com,(011) 50000013,Observación 13,Responsable Inscripto,22345678912,2024-02-04,2024-04-01,NO,Mensual,169.763,402.101,
+D00014,ServiNet S.A,Empresa,Contacto N,ServiNet@example.com,(011) 50000014,Observación 14,Monotributista,23456789023,2024-06-05,,SI,Bimestral,244.263,403.101,
+D00015,AeroPlus S.A,Empresa,Contacto O,AeroPlus@example,(011) 50000015,Observación 15,Responsable Inscripto,24567890134,2024-03-23,2024-04-01,NO,Anual,109.935,403.101,
+D00016,MaxiData ,Empresa,Contacto P,MaxiData@example.com,(011) 50000016,Observación 16,Monotributista,25678901245,2024-04-07,,SI,Mensual,483.186,402.101,
+D00017,EcoAventura S.A,Empresa,Contacto Q,EcoAventura@example.com,(011) 50000017,Observación 17,Responsable Inscripto,26789012356,2024-03-29,2024-04-01,NO,Bimestral,349.289,403.101,
+D00018,Sigma Consulting S.A,Empresa,Contacto R,Sigma Consulting@example.com,(011) 50000018,Observación 18,Monotributista,27890123467,2024-03-30,,SI,Anual,191.824,403.101,
+D00019,Soluciones Avanzadas S.A,Empresa,Contacto S,Soluciones Avanzadas@example.com,(011) 50000019,Observación 19,Responsable Inscripto,28901234578,2024-01-01,2024-04-01,NO,Mensual,349.612,402.101,
+D00020,RedSol Argentina S.A,Empresa,Contacto T,RedSol Argentina@example.com,(011) 50000020,Observación 20,Monotributista,29012345689,2024-03-04,2024-04-01,NO,Bimestral,452.948,403.101,
+D00021,Grupo Synthesis S.A,Empresa,Contacto U,Grupo Synthesis@example.com,(011) 50000021,Observación 21,Responsable Inscripto,20123456801,2024-04-16,,SI,Anual,359.387,403.101,
+D00022,DeltaElectro S.A,Empresa,Contacto V,DeltaElectro@example.com,(011) 50000022,Observación 22,Monotributista,21234567812,2024-02-04,2024-04-01,NO,Mensual,453.421,402.101,
+D00023,SmartTech Argentina S.A,Empresa,Contacto W,SmartTech Argentina@example.com,(011) 50000023,Observación 23,Responsable Inscripto,22345678923,2024-05-30,,SI,Bimestral,333.679,403.101,
+D00024,NovaVisión S.A,Empresa,Contacto X,NovaVisión@example.com,(011) 50000024,Observación 24,Monotributista,23456789034,2024-05-31,,SI,Anual,152.261,403.101,
+D00025,InfoMática S.A,Empresa,Contacto Y,InfoMática S.A.@example.com,(011) 50000025,Observación 25,Responsable Inscripto,24567890145,2024-06-08,,SI,Mensual,309.782,402.101,
+D00026,Energía VIVA S.A,Empresa,Contacto Z,Energía VIVA@example,(011) 50000026,Observación 26,Monotributista,25678901256,2024-06-13,,SI,Bimestral,270.14,403.101,
+D00027,TransWorld S.A,Empresa,Contacto AA,TransWorld@example.com,(011) 50000027,Observación 27,Responsable Inscripto,26789012367,2024-06-05,,SI,Anual,414.446,403.101,
+D00028,Soluciones Urbanas ,Empresa,Contacto BB,Soluciones Urbanas@example.com,(011) 50000028,Observación 28,Monotributista,27890123478,2024-01-27,2024-04-01,NO,Mensual,218.575,402.101,
+D00029,GlobalNet S.R.L,Empresa,Contacto CC,GlobalNet@example.com,(011) 50000029,Observación 29,Responsable Inscripto,28901234589,2024-06-18,,SI,Bimestral,272.633,403.101,
+D00030,FuturoTech S.R.L,Empresa,Contacto DD,FuturoTech@example.com,(011) 50000030,Observación 30,Monotributista,29012345690,2024-01-22,2024-04-01,NO,Anual,445.169,403.101,
+D00031,InnovarX S.R.L,Empresa,Contacto EE,InnovarX@example.com,(011) 50000031,Observación 31,Responsable Inscripto,20123456813,2024-06-05,,SI,Mensual,189.438,402.101,
+D00032,Cobra Solutions S.R.L,Empresa,Contacto FF,Cobra Solutions@example.com,(011) 50000032,Observación 32,Monotributista,21234567824,2024-05-07,,SI,Bimestral,115.526,403.101,
+D00033,Metrópolis S.A,Empresa,Contacto GG,Metrópolis S.A.@example.com,(011) 50000033,Observación 33,Responsable Inscripto,22345678935,2024-04-21,,SI,Anual,154.409,403.101,
+D00034,Vortex Energía S.R.L,Empresa,Contacto HH,Vortex Energía@example.com,(011) 50000034,Observación 34,Monotributista,23456789046,2024-06-01,,SI,Mensual,380.153,402.101,
+D00035,EcoVisión S.R.L,Empresa,Contacto II,EcoVisión@example.com,(011) 50000035,Observación 35,Responsable Inscripto,24567890157,2024-03-13,2024-04-01,NO,Bimestral,398.095,403.101,
+D00036,NexuTech S.R.L,Empresa,Contacto JJ,NexuTech@example.com,(011) 50000036,Observación 36,Monotributista,25678901268,,,SI,Anual,385.421,403.101,
+D00037,AlphaSystems S.R.L,Empresa,Contacto KK,AlphaSystems@example.com,(011) 50000037,Observación 37,Responsable Inscripto,26789012379,2024-02-01,2024-04-01,NO,Mensual,397.09,402.101,
+D00038,MetroLogística S.R.L,Empresa,Contacto LL,MetroLogística@example.com,(011) 50000038,Observación 38,Monotributista,27890123480,2024-05-20,,SI,Bimestral,259.341,403.101,
+D00039,Quantum Ventures S.R.L,Empresa,Contacto MM,Quantum Ventures@example.com,(011) 50000039,Observación 39,Responsable Inscripto,28901234591,2024-06-28,,SI,Anual,406.805,403.101,
+D00040,Orion Innovaciones S.R.L,Empresa,Contacto NN,Orion Innovaciones@example.com,(011) 50000040,Observación 40,Monotributista,29012345702,2024-04-27,,SI,Mensual,333.954,402.101,
+D00041,Jaan Pérez ,Individuo,Contacto OO,Jaan Pérez@example.com,(011) 50000041,Observación 41,Monotributista,20123456824,2024-02-29,2024-04-01,NO,Bimestral,86.846,403.101,
+D00042,Ana López ,Individuo,Contacto PP,Ana López@example.com,(011) 50000042,Observación 42,Exento,21234567835,2024-06-14,,SI,Anual,167.448,403.101,
+D00043,Jorge Rodríguez ,Individuo,Contacto QQ,Jorge Rodríguez@example,(011) 50000043,Observación 43,Responsable Inscripto,22345678946,2024-05-14,,SI,Mensual,70.569,402.102,
+D00044,Sofía Díaz ,Individuo,Contacto RR,Sofía Díaz@example.com,(011) 50000044,Observación 44,Monotributista,23456789057,2024-04-03,,SI,Bimestral,130.021,403.101,
+D00045,alejandro Torres ,Individuo,Contacto SS,alejandro Torres@example.com,(011) 50000045,Observación 45,Exento,24567890168,2024-04-12,,SI,Anual,135.342,403.101,
+D00046,Gabriela Ortiz ,Individuo,Contacto TT,Gabriela Ortiz@example.com,(011) 50000046,Observación 46,Responsable Inscripto,25678901279,2024-03-15,2024-04-01,NO,Mensual,55.258,402.102,
+D00047,Sergio Rivas ,Individuo,Contacto UU,Sergio Rivas@example.com,(011) 50000047,Observación 47,Monotributista,26789012380,2024-04-11,,SI,Bimestral,104.301,403.101,
+D00048,Patricia Navarro ,Individuo,Contacto VV,Patricia Navarro@example.com,(011) 50000048,Observación 48,Exento,27890123491,2024-05-02,,SI,Anual,158.669,403.101,
+D00049,Fernando Aguilar ,Individuo,Contacto WW,Fernando Aguilar@example.com,(011) 50000049,Observación 49,Responsable Inscripto,28901234502,,,SI,Mensual,166.965,402.102,
+D00050,Isabel Ríos ,Individuo,Contacto XX,Isabel Ríos@example.com,(011) 50000050,Observación 50,Monotributista,29012345713,2024-01-30,2024-04-01,NO,Bimestral,151.978,403.101,
+D00051,Rafael Silva ,Individuo,Contacto YY,Rafael Silva@example.com,(011) 50000051,Observación 51,Exento,20123456836,2024-04-17,,SI,Anual,176.989,403.101,
+D00052,Mónica León ,,Contacto ZZ,Mónica León@example.com,(011) 50000052,Observación 52,Responsable Inscripto,21234567847,2024-02-04,2024-04-01,NO,Mensual,102.271,403.101,
+D00053,Héctor Salazar ,Individuo,Contacto AAA,Héctor Salazar@example.com,(011) 50000053,Observación 53,Monotributista,22345678958,2024-06-27,,SI,Bimestral,154.758,403.101,
+D00054,Carolina Mendoza ,Individuo,Contacto BBB,Carolina Mendoza@example.com,(011) 50000054,Observación 54,Exento,23456789069,2024-05-11,,SI,Anual,55.466,403.101,
+D00055,Víctor Gil ,Individuo,Contacto CCC,Víctor Gil@example.com,(011) 50000055,Observación 55,Responsable Inscripto,24567890170,2024-04-07,,SI,Mensual,89.589,402.102,
+D00056,Claudia Ponce ,Individuo,Contacto DDD,Claudia Ponce@example.com,(011) 50000056,Observación 56,Monotributista,25678901281,2024-04-22,,SI,Bimestral,75.404,403.101,
+D00057,Mario Espinoza ,Individuo,Contacto EEE,Mario Espinoza@example.com,(011) 50000057,Observación 57,Exento,26789012292,2024-02-06,2024-04-01,NO,Anual,114.077,403.101,
+D00058,Rosa Cárdenas ,Individuo,Contacto FFF,Rosa Cárdenas@example.com,(011) 50000058,Observación 58,Responsable Inscripto,27890123303,2024-03-04,2024-04-01,NO,Mensual,174.259,402.102,
+D00059,Adolfo Cabrera ,Individuo,Contacto GGG,Adolfo Cabrera@example.com,(011) 50000059,Observación 59,Monotributista,28901234614,2024-04-17,,SI,Bimestral,133.689,403.101,
+D00060,Susana Muñoz ,Individuo,Contacto HHH,Susana Muñoz@example.com,(011) 50000060,Observación 60,Exento,29012345725,2024-05-13,,SI,Anual,58.351,403.101,
+D00061,Felipe Rojas ,Individuo,Contacto III,Felipe Rojas@example.com,(011) 50000061,Observación 61,Responsable Inscripto,20123456847,2024-03-17,2024-04-01,NO,Mensual,104.373,402.102,
+D00062,Olga Vargas ,Individuo,Contacto JJJ,Olga Vargas@example.com,(011) 50000062,Observación 62,Monotributista,21234567858,2024-05-16,,SI,Bimestral,167.335,403.101,
+D00063,Esteban Rosales ,Individuo,Contacto KKK,Esteban Rosales@example.com,(011) 50000063,Observación 63,Exento,22345678969,2024-01-29,2024-04-01,NO,Anual,99.055,403.101,
+D00064,Emma Paredes ,Individuo,Contacto LLL,Emma Paredes@example.com,(011) 50000064,Observación 64,Responsable Inscripto,23456789070,2024-06-26,,SI,Mensual,60.683,402.102,
+D00065,Joaquín Serrano ,Individuo,Contacto MMM,Joaquín Serrano@example.com,(011) 50000065,Observación 65,Monotributista,24567890181,2024-05-09,,SI,Bimestral,119.39,403.101,
+D00066,Laura Márquez ,Individuo,Contacto NNN,Laura Márquez@example.com,(011) 50000066,Observación 66,Exento,25678901292,2024-02-01,2024-04-01,NO,Anual,117.232,403.101,
+D00067,Damián Molina ,Individuo,Contacto OOO,Damián Molina@example.com,(011) 50000067,Observación 67,Responsable Inscripto,26789012303,2024-06-13,,SI,Mensual,100.701,402.102,
+D00068,Viviana Herrera ,Individuo,Contacto PPP,Viviana Herrera@example.com,(011) 50000068,Observación 68,Monotributista,27890123314,2024-01-26,2024-04-01,NO,Bimestral,186.202,403.101,
+D00068,Viviana Herrera ,,Contacto PPP,Viviana Herrera@example.com,(011) 50000068,Observación 68,Monotributista,27890123314,2024-01-26,2024-04-01,NO,Bimestral,173.157,403.101,
+D00069,Agustín Martínez ,Individuo,Contacto QQQ,Agustín Martínez@example,(011) 50000069,Observación 69,Exento,28901234625,2024-02-17,2024-04-01,NO,Anual,109.167,403.101,
+D00070,Clara Torres ,Individuo,Contacto RRR,Clara Torres@example.com,(011) 50000070,Observación 70,Responsable Inscripto,29012345736,2024-05-29,,SI,Mensual,121.715,402.102,
+D00071,Ezequiel Delgado ,Individuo,Contacto SSS,Ezequiel Delgado@example.com,(011) 50000071,Observación 71,Monotributista,20123456858,2024-06-12,,SI,Bimestral,181.679,403.101,
+D00072,Pilar Ortiz ,Individuo,Contacto TTT,Pilar Ortiz@example.com,(011) 50000072,Observación 72,Exento,21234567869,2024-05-24,,SI,Anual,164.792,403.101,
+D00073,Luciano Rivas ,Individuo,Contacto UUU,Luciano Rivas@example.com,(011) 50000073,Observación 73,Responsable Inscripto,22345678970,2024-04-12,,SI,Mensual,184.834,402.102,
+D00074,Mía Morales ,Individuo,Contacto VVV,Mía Morales@example.com,(011) 50000074,Observación 74,Monotributista,23456789081,2024-02-19,2024-04-01,NO,Bimestral,173.825,403.101,
+D00075,Carlos Gómez ,Individuo,Contacto WWW,Carlos Gómez@example.com,(011) 50000075,Observación 75,Exento,24567890192,2024-02-02,2024-04-01,NO,Anual,166.2,403.101,
+D00076,Mariana Fernández ,Individuo,Contacto XXX,Mariana Fernández@example.com,(011) 50000076,Observación 76,Responsable Inscripto,25678901303,2024-05-18,,SI,Mensual,106.34,402.102,
+D00077,Luis Martínez ,Individuo,Contacto YYY,Luis Martínez@example,(011) 50000077,Observación 77,Monotributista,26789012314,2024-06-20,,SI,Bimestral,130.34,403.101,
+D00078,Julia González ,Individuo,Contacto ZZZ,Julia González@example.com,(011) 50000078,Observación 78,Exento,27890123325,2024-03-13,2024-04-01,NO,Anual,90.786,403.101,
+D00079,Ricardo López ,,Contacto AAAA,Ricardo López@example.com,(011) 50000079,Observación 79,Responsable Inscripto,28901234636,2024-03-06,2024-04-01,NO,Mensual,188.151,403.101,
+D00080,Silvia Ramírez ,Individuo,Contacto BBBB,Silvia Ramírez@example.com,(011) 50000080,Observación 80,Monotributista,29012345747,2024-06-30,,SI,Bimestral,136.947,403.101,
+D00081,Martín Vargas ,Individuo,Contacto CCCC,Martín Vargas@example.com,(011) 50000081,Observación 81,Exento,20123456860,2024-02-16,2024-04-01,NO,Anual,165.727,403.101,
+D00082,Natalia Castro ,Individuo,Contacto DDDD,Natalia Castro@example.com,(011) 50000082,Observación 82,Responsable Inscripto,21234567871,2024-06-24,,SI,Mensual,114.296,402.102,
+D00083,alejandra Peña ,Individuo,Contacto EEEE,alejandra Peña@example,(011) 50000083,Observación 83,Monotributista,22345678982,2024-03-15,2024-04-01,NO,Bimestral,76.383,403.101,
+D00084,Santiago López ,Individuo,Contacto FFFF,Santiago López@example.com,(011) 50000084,Observación 84,Exento,23456789093,2024-06-18,,SI,Anual,137.963,403.101,
+D00085,Verónica Ruiz ,Individuo,Contacto GGGG,Verónica Ruiz@example.com,(011) 50000085,Observación 85,Responsable Inscripto,24567890204,2024-02-08,2024-04-01,NO,Mensual,63.095,402.102,
+D00086,Andrés Silva ,Individuo,Contacto HHHH,Andrés Silva@example.com,(011) 50000086,Observación 86,Monotributista,25678901315,2024-04-05,,SI,Bimestral,113.891,403.101,
+D00087,Patricia Gómez ,Individuo,Contacto IIII,Patricia Gómez@example.com,(011) 50000087,Observación 87,Exento,26789012326,2024-02-22,2024-04-01,NO,Anual,125.419,403.101,
+D00088,Javier Morales ,Individuo,Contacto JJJJ,Javier Morales@example.com,(011) 50000088,Observación 88,Responsable Inscripto,27890123337,2024-06-28,,SI,Mensual,121.338,402.102,
+D00089,Liliana Romero ,Individuo,Contacto KKKK,Liliana Romero@example.com,(011) 50000089,Observación 89,Monotributista,28901234648,2024-06-10,,SI,Bimestral,58.739,403.101,
+D00090,Maximiliano Álvarez ,Individuo,Contacto LLLL,Maximiliano Álvarez@example.com,(011) 50000090,Observación 90,Exento,29012345759,2024-04-10,,SI,Anual,65.02,403.101,
+D00091,Elena Bravo ,Individuo,Contacto MMMM,Elena Bravo@example.com,(011) 50000091,Observación 91,Responsable Inscripto,20123456870,2024-04-22,,SI,Mensual,163.41,402.102,
+D00092,Hugo Fernández ,Individuo,Contacto NNNN,Hugo Fernández@example.com,(011) 50000092,Observación 92,Monotributista,21234567881,2024-03-09,2024-04-01,NO,Bimestral,123.679,403.101,
+D00093,Diana Morales ,Individuo,Contacto OOOO,Diana Morales@example.com,(011) 50000093,Observación 93,Exento,22345678892,2024-01-29,2024-04-01,NO,Anual,126.605,403.101,
+D00094,Rodrigo Medina ,,Contacto PPPP,Rodrigo Medina@example.com,(011) 50000094,Observación 94,Responsable Inscripto,23456789903,2024-04-02,,SI,Mensual,84.706,403.101,
+D00095,Margarita Jiménez ,Individuo,Contacto QQQQ,Margarita Jiménez@example,(011) 50000095,Observación 95,Monotributista,24567890014,2024-02-22,2024-04-01,NO,Bimestral,195.855,403.101,
+D00096,Emilio Soto ,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 50000096,Observación 96,Exento,25678901225,2024-04-15,,SI,Anual,114.424,403.101,
+D00096,Emilio Soto ,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 50000096,Observación 96,Exento,25678901225,2024-04-15,,SI,Anual,110.881,403.101,
+D00096,Emilio Soto ,Individuo,Contacto RRRR,Emilio Soto@example.com,(011) 50000096,Observación 96,Exento,25678901225,2024-04-15,,SI,Anual,57.867,403.101,
+D00097,Rocío Cabrera ,Individuo,Contacto SSSS,Rocío Cabrera@example.com,(011) 50000097,Observación 97,Responsable Inscripto,26789012336,2024-05-28,,SI,Mensual,139.723,402.102,
+D00098,Pablo Fernández ,Individuo,Contacto TTTT,Pablo Fernández@example.com,(011) 50000098,Observación 98,Monotributista,27890123447,2024-05-05,,SI,Bimestral,133.131,403.101,
+D00099,Belén Gómez ,Individuo,Contacto UUUU,Belén Gómez@example.com,(011) 50000099,Observación 99,Exento,28901234558,2024-01-25,2024-04-01,NO,Anual,162.961,403.101,
+D00100,Roberto Morales ,Individuo,Contacto VVVV,Roberto Morales@example.com,(011) 50000100,Observación 100,Responsable Inscripto,29012345769,2024-02-26,2024-04-01,NO,Mensual,156.325,402.102,
+D00101,Donaciones Co. SRL,Empresa,Contacto VVVV,Donaciones Co.@example.com,(011) 50000101,Observación 101,Responsable Inscripto,290123457610,2024-05-31,,si,Anual,120.0,409.021,
+D00102,Ayuda Empresarial SA,Empresa,Contacto VVVV,Ayuda Empresarial S.A.@example.com,(011) 50000102,Observación 102,Responsable Inscripto,290123457611,2024-06-01,,si,Anual,150.0,409.021,
+D00103,Donativos y Más SRL,Empresa,Contacto VVVV,Donativos y Más S.R.L.@example.com,(011) 50000103,Observación 103,Responsable Inscripto,290123457612,2024-06-02,,si,Bimestral,200.0,409.021,
+D00104,Apoyo Corporativo SA,Empresa,Contacto VVVV,Apoyo Corporativo S.A.@example.com,(011) 50000104,Observación 104,Responsable Inscripto,290123457613,2024-06-03,,si,Bimestral,180.0,409.021,
+D00105,Fundación Empresarial SA,Empresa,Contacto VVVV,Fundación Empresarial@example.com,(011) 50000105,,Responsable Inscripto,290123457614,2024-06-04,,si,Bimestral,220.0,409.021,
+D00106,Ministerio Desarrollo Social GOB,Estado,,ministeriods@example.gob,(011) 652389745,Observación 106,Exento,30000000025,2024-01-01,,SI,Mensual,650.0,404.1,
+D00107,Campaña un Sol para todos SA,Campaña,Contacto VVVV,solparatodos@example.gov,(011) 652389746,Observación 107,Exento,30000000085,2024-02-02,,SI,Anual,780.0,403.101,
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,281.342,404.1,2022-10-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,383.818,404.1,2022-12-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,217.763,404.1,2023-02-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,424.093,404.1,2023-04-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,191.399,404.1,2023-06-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,390.95,404.1,2023-08-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,797.809,404.1,2023-10-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,596.04,404.1,2023-12-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,683.505,404.1,2024-02-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,627.181,404.1,2024-04-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,659.415,404.1,2024-06-04
+D00108,Iniciativa Solidaria SAS,Empresa,Contacto C,iniciativasolidaria@mail.com,(+)55 57477433,Observación D,Monotributista,24912241206,2022-10-04,2024-08-20,NO,Bimestral,758.508,404.1,2024-08-04
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,183.574,404.1,2019-08-09
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,714.947,404.1,2019-10-15
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,249.584,404.1,2019-12-20
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,730.842,404.1,2020-02-05
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,280.468,404.1,2020-04-12
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,166.865,404.1,2020-06-18
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,655.577,404.1,2020-08-22
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,686.866,404.1,2020-10-10
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,492.556,404.1,2020-12-25
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,470.537,404.1,2021-02-07
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,143.318,404.1,2021-04-14
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,387.405,404.1,2021-06-19
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,748.11,404.1,2021-08-23
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,606.837,404.1,2021-10-11
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,732.998,404.1,2021-12-27
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,433.172,404.1,2022-02-08
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,65.198,404.1,2022-04-16
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,505.685,404.1,2022-06-21
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,547.634,404.1,2022-08-24
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,662.88,404.1,2022-10-13
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,257.499,404.1,2022-12-29
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,567.511,404.1,2023-02-06
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,78.589,404.1,2023-04-17
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,778.799,404.1,2023-06-20
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,402.281,404.1,2023-08-26
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,368.134,404.1,2023-10-12
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,238.802,404.1,2023-12-28
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,739.084,404.1,2024-02-09
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,578.868,404.1,2024-04-18
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,481.653,404.1,2024-06-22
+D00109,Innovatech Solutions S.A,Estado,Contacto B,innovatechsolutions@mail.com,(+)54 52632378,Observación A,Exento,24565887696,2019-08-09,,SI,Bimestral,676.243,404.1,2024-08-30
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,101.418,403.103,2020-05-02
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,153.871,403.103,2020-08-03
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,141.673,403.103,2020-11-05
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,130.672,403.103,2021-02-07
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,195.011,403.103,2021-05-04
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,199.47,403.103,2021-08-06
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,196.54,403.103,2021-11-03
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,167.308,403.103,2022-02-09
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,194.895,403.103,2022-05-05
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,157.365,403.103,2022-08-07
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,156.809,403.103,2022-11-04
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,168.805,403.103,2023-02-06
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,175.721,403.103,2023-05-03
+D00110,Apoyo Logistico SA,Empresa,Contacto GH,apoyologisticosa@mail.com,(595) 50300105,Observación 175,Responsable Inscripto,290126547614,2020-05-02,2024-07-01,NO,Trimestral,129.491,403.103,2023-08-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,766.487,403.103,2019-12-02
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,356.286,403.103,2020-01-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,72.321,403.103,2020-02-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,512.66,403.103,2020-03-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,235.999,403.103,2020-04-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,188.904,403.103,2020-05-06
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,183.842,403.103,2020-06-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,70.469,403.103,2020-07-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,207.544,403.103,2020-08-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,483.595,403.103,2020-09-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,226.668,403.103,2020-10-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,285.886,403.103,2020-11-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,321.539,403.103,2020-12-02
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,345.181,403.103,2021-01-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,250.534,403.103,2021-02-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,333.984,403.103,2021-03-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,522.252,403.103,2021-04-06
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,564.381,403.103,2021-05-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,53.611,403.103,2021-06-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,175.471,403.103,2021-07-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,487.451,403.103,2021-08-06
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,590.151,403.103,2021-09-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,442.684,403.103,2021-10-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,520.747,403.103,2021-11-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,599.251,403.103,2021-12-06
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,360.648,403.103,2022-01-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,63.873,403.103,2022-02-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,299.852,403.103,2022-03-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,723.618,403.103,2022-04-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,615.923,403.103,2022-05-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,282.999,403.103,2022-06-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,693.094,403.103,2022-07-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,54.677,403.103,2022-08-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,319.808,403.103,2022-09-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,626.97,403.103,2022-10-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,364.686,403.103,2022-11-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,631.303,403.103,2022-12-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,274.376,403.103,2023-01-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,128.788,403.103,2023-02-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,256.681,403.103,2023-03-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,480.666,403.103,2023-04-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,482.346,403.103,2023-05-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,488.328,403.103,2023-06-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,262.263,403.103,2023-07-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,356.384,403.103,2023-08-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,544.174,403.103,2023-09-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,149.397,403.103,2023-10-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,675.154,403.103,2023-11-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,202.733,403.103,2023-12-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,773.286,403.103,2024-01-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,334.462,403.103,2024-02-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,739.298,403.103,2024-03-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,539.067,403.103,2024-04-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,159.307,403.103,2024-05-03
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,152.701,403.103,2024-06-05
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,430.624,403.103,2024-07-04
+D00111,Futuro Corporativo SAS,Empresa,Contacto E,futurocorporativo@mail.com,(+)595 53803426,Observación D,Monotributista,27237832666,2019-12-02,,SI,Mensual,148.343,403.103,2024-08-05
+D00112,Global Energies SA,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 55037127,Observación C,Responsable Inscripto,25369015148,2019-08-13,,SI,Anual,385.846,404.1,2019-08-13
+D00112,Global Energies ,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 55037127,Observación C,Responsable Inscripto,25369015148,2019-08-13,,SI,Anual,750.782,404.1,2020-08-14
+D00112,Global Energies ,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 55037127,Observación C,Responsable Inscripto,25369015148,2019-08-13,,SI,Anual,409.837,404.1,2021-08-12
+D00112,Global Energies ,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 55037127,Observación C,Responsable Inscripto,25369015148,2019-08-13,,SI,Anual,747.805,404.1,2022-08-15
+D00112,Global Energies ,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 55037127,Observación C,Responsable Inscripto,25369015148,2019-08-13,,SI,Anual,260.898,404.1,2023-08-13
+D00112,Global Energies ,Estado,Contacto A,globalenergiess.a.@example.net,(+)598 55037127,Observación C,Responsable Inscripto,25369015148,2019-08-13,,SI,Anual,558.515,404.1,2024-08-14
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,706.102,404.1,2022-01-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,254.098,404.1,2022-02-22
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,76.229,404.1,2022-03-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,628.328,404.1,2022-04-23
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,486.856,404.1,2022-05-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,298.046,404.1,2022-06-22
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,171.034,404.1,2022-07-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,587.146,404.1,2022-08-23
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,417.361,404.1,2022-09-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,279.196,404.1,2022-10-22
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,706.918,404.1,2022-11-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,385.281,404.1,2022-12-23
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,331.28,404.1,2023-01-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,351.957,404.1,2023-02-22
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,357.979,404.1,2023-03-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,581.485,404.1,2023-04-23
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,428.123,404.1,2023-05-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,85.345,404.1,2023-06-22
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,774.305,404.1,2023-07-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,609.982,404.1,2023-08-23
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,680.131,404.1,2023-09-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,130.889,404.1,2023-10-22
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,760.502,404.1,2023-11-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,469.51,404.1,2023-12-23
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,577.317,404.1,2024-01-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,445.942,404.1,2024-02-22
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,239.793,404.1,2024-03-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,340.346,404.1,2024-04-23
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,178.456,404.1,2024-05-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,224.2,404.1,2024-06-22
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,609.063,404.1,2024-07-21
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,740.873,404.1,2024-08-23
+D00113,Proyecto Gubernamental GOB,Estado,Contacto E,proyectogubernamental@mail.com,(+)598 55509219,Observación D,Exento,29751964061,2022-01-21,,SI,Mensual,508.753,404.1,2024-09-01
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,193.728,405.1,2021-01-22
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,139.844,405.1,2021-02-23
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,45.549,405.1,2021-03-22
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,87.788,405.1,2021-04-24
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,57.471,405.1,2021-05-22
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,40.464,405.1,2021-06-23
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,190.604,405.1,2021-07-22
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,197.183,405.1,2021-08-23
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,46.112,405.1,2021-09-22
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,132.359,405.1,2021-10-23
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,180.459,405.1,2021-11-22
+D00114,Latinoamerica Crece GOB,Estado,Contacto ESD,latinoamerica_crece@example.com,(+)598 55509219,,Exento,27751934561,2020-01-21,2021-12-25,NO,Mensual,113.088,405.1,2021-12-23
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,180.488,405.1,2020-12-25
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,79.065,405.1,2021-02-10
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,184.185,405.1,2021-04-07
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,65.0,405.1,2021-06-19
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,181.635,405.1,2021-08-05
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,66.423,405.1,2021-10-22
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,123.625,405.1,2021-12-15
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,89.993,405.1,2022-02-03
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,11.747,405.1,2022-04-21
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,43.728,405.1,2022-06-09
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,108.254,405.1,2022-08-26
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,53.331,405.1,2022-10-14
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,156.418,405.1,2022-12-01
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,172.159,405.1,2023-01-19
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,196.425,405.1,2023-03-06
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,43.469,405.1,2023-05-22
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,31.692,405.1,2023-07-10
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,92.066,405.1,2023-09-25
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,121.69,405.1,2023-11-13
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,87.28,405.1,2023-12-30
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,85.785,405.1,2024-02-17
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,149.833,405.1,2024-04-04
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,86.746,405.1,2024-05-22
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,66.711,405.1,2024-07-10
+D00115,Mercado Popular SAS,Campaña,Contacto VDS,mercadopopular@example.com,(+)55 55509219,Observación DAS,Monotributista,24341934562,2020-12-22,,SI,Bimestral,40.287,405.1,2024-08-28
+D00116,Universidad del Sur S.A,Empresa,Contacto V,universidadds@mail.com,(+)51 55509220,Observación O,Responsable Inscripto,29387934563,2018-12-23,,SI,Anual,72.299,403.103,2018-12-23
+D00116,Universidad del Sur S.A,Empresa,Contacto V,universidadds@mail.com,(+)51 55509220,Observación O,Responsable Inscripto,29387934563,2018-12-23,,SI,Anual,63.458,403.103,2019-10-23
+D00116,Universidad del Sur S.A,Empresa,Contacto V,universidadds@mail.com,(+)51 55509220,Observación O,Responsable Inscripto,29387934563,2018-12-23,,SI,Anual,173.463,403.103,2020-11-15
+D00116,Universidad del Sur S.A,Empresa,Contacto V,universidadds@mail.com,(+)51 55509220,Observación O,Responsable Inscripto,29387934563,2018-12-23,,SI,Anual,42.59,403.103,2021-05-12
+D00116,Universidad del Sur S.A,Empresa,Contacto V,universidadds@mail.com,(+)51 55509220,Observación O,Responsable Inscripto,29387934563,2018-12-23,,SI,Anual,58.332,403.103,2022-12-23
+D00116,Universidad del Sur S.A,Empresa,Contacto V,universidadds@mail.com,(+)51 55509220,Observación O,Responsable Inscripto,29387934563,2018-12-23,,SI,Anual,185.679,403.103,2023-10-23
+D00116,Universidad del Sur S.A,Empresa,Contacto V,universidadds@mail.com,(+)51 55509220,Observación O,Responsable Inscripto,29387934563,2018-12-23,,SI,Anual,43.675,403.103,2024-06-01
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,387.885,403.103,2020-01-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,540.813,403.103,2020-02-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,274.968,403.103,2020-03-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,276.867,403.103,2020-04-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,460.149,403.103,2020-05-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,247.913,403.103,2020-06-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,565.616,403.103,2020-07-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,219.966,403.103,2020-08-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,264.022,403.103,2020-09-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,354.871,403.103,2020-10-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,244.865,403.103,2020-11-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,325.793,403.103,2020-12-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,399.685,403.103,2021-01-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,486.131,403.103,2021-02-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,455.211,403.103,2021-03-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,334.904,403.103,2021-04-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,268.278,403.103,2021-05-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,486.28,403.103,2021-06-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,335.92,403.103,2021-07-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,581.841,403.103,2021-08-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,294.729,403.103,2021-09-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,545.689,403.103,2021-10-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,347.66,403.103,2021-11-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,416.591,403.103,2021-12-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,572.61,403.103,2022-01-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,317.989,403.103,2022-02-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,477.604,403.103,2022-03-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,484.857,403.103,2022-04-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,299.187,403.103,2022-05-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,361.284,403.103,2022-06-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,375.092,403.103,2022-07-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,378.265,403.103,2022-08-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,398.047,403.103,2022-09-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,529.57,403.103,2022-10-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,572.356,403.103,2022-11-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,280.45,403.103,2022-12-24
+D00117,Automoviles Full S.A,Empresa,Contacto VS,afull@mail.com,(+)598 55509221,Observación OA,Responsable Inscripto,21387123564,2020-01-24,2024-02-02,NO,Mensual,233.279,403.103,2023-01-24
+D00120,Supermercado Vegano ,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 55509222,,Responsable Inscripto,34017123565,2023-01-25,,SI,Bimestral,329.609,403.103,2023-01-25
+D00120,Supermercado Vegano ,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 55509222,,Responsable Inscripto,34017123565,2023-01-25,,SI,Bimestral,280.069,403.103,2023-03-10
+D00120,Supermercado Vegano ,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 55509222,,Responsable Inscripto,34017123565,2023-01-25,,SI,Bimestral,258.235,403.103,2023-05-18
+D00120,Supermercado Vegano ,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 55509222,,Responsable Inscripto,34017123565,2023-01-25,,SI,Bimestral,371.932,403.103,2023-07-07
+D00120,Supermercado Vegano ,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 55509222,,Responsable Inscripto,34017123565,2023-01-25,,SI,Bimestral,488.646,403.103,2023-09-22
+D00120,Supermercado Vegano ,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 55509222,,Responsable Inscripto,34017123565,2023-01-25,,SI,Bimestral,243.43,403.103,2023-11-14
+D00120,Supermercado Vegano ,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 55509222,,Responsable Inscripto,34017123565,2023-01-25,,SI,Bimestral,435.348,403.103,2024-01-03
+D00120,Supermercado Vegano ,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 55509222,,Responsable Inscripto,34017123565,2023-01-25,,SI,Bimestral,540.812,403.103,2024-03-19
+D00120,Supermercado Vegano ,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 55509222,,Responsable Inscripto,34017123565,2023-01-25,,SI,Bimestral,515.89,403.103,2024-05-12
+D00120,Supermercado Vegano ,Empresa,Contacto VG,supermercadovegano@mail.com,(+)58 55509222,,Responsable Inscripto,34017123565,2023-01-25,,SI,Bimestral,593.821,403.103,2024-07-28
+D00121,Ministerio de Acción Comunitaria GOB,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 55509223,Observación DD,Exento,34017123566,2018-01-26,,Si,Anual,243.823,404.1,2018-01-26
+D00121,Ministerio de Acción Comunitaria GOB,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 55509223,Observación DD,Exento,34017123566,2018-01-26,,Si,Anual,272.276,404.1,2019-03-15
+D00121,Ministerio de Acción Comunitaria GOB,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 55509223,Observación DD,Exento,34017123566,2018-01-26,,Si,Anual,205.153,404.1,2020-06-04
+D00121,Ministerio de Acción Comunitaria GOB,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 55509223,Observación DD,Exento,34017123566,2018-01-26,,Si,Anual,218.438,404.1,2021-08-22
+D00121,Ministerio de Acción Comunitaria GOB,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 55509223,Observación DD,Exento,34017123566,2018-01-26,,Si,Anual,135.999,404.1,2022-11-11
+D00121,Ministerio de Acción Comunitaria GOB,Estado,Contacto ZVS,accióncomunitaria@mail.com,(+)56 55509223,Observación DD,Exento,34017123566,2018-01-26,,Si,Anual,190.938,404.1,2023-12-30
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,66.227,403.103,2018-01-03
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,55.3,403.103,2018-07-15
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,84.76,403.103,2019-01-08
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,16.137,403.103,2019-07-23
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,18.448,403.103,2020-01-12
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,75.788,403.103,2020-07-05
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,24.378,403.103,2021-01-18
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,61.986,403.103,2021-07-27
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,82.997,403.103,2022-01-22
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,30.913,403.103,2022-07-14
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,92.208,403.103,2023-01-07
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,93.637,403.103,2023-07-19
+D00122,El Parque SRL,Empresa,Contacto ASD,parque@mail.com,(+)591 55509224,Observación,Responsable Inscripto,24789123567,2018-01-01,,SI,Semestral,16.927,403.103,2024-01-02
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,,405.1,2021-01-02
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,220.94,405.1,2021-02-15
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,570.809,405.1,2021-03-07
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,408.684,405.1,2021-04-22
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,451.106,405.1,2021-05-10
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,442.684,405.1,2021-06-28
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,404.537,405.1,2021-07-05
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,374.87,405.1,2021-08-19
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,496.721,405.1,2021-09-12
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,455.378,405.1,2021-10-26
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,329.454,405.1,2021-11-03
+D00123,Merendero Solidario GOB,ONG,,solidario@mail.com,(+)591 55509225,Observación D,Monotributista,24725823568,2021-01-02,,SI,Mensual,492.165,405.1,2021-12-21
+D00124,Soluciones VerdeVida ONG,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,Observación DE,Monotributista,20123456789,2024-02-01,,SI,Mensual,221.969,405.1,2024-02-01
+D00124,Soluciones VerdeVida ONG,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,Observación DE,Monotributista,20123456789,2024-02-01,,SI,Mensual,293.23,405.1,2024-03-14
+D00124,Soluciones VerdeVida ONG,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,Observación DE,Monotributista,20123456789,2024-02-01,,SI,Mensual,568.883,405.1,2024-04-09
+D00124,Soluciones VerdeVida ONG,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,Observación DE,Monotributista,20123456789,2024-02-01,,SI,Mensual,470.187,405.1,2024-05-22
+D00124,Soluciones VerdeVida ONG,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,Observación DE,Monotributista,20123456789,2024-02-01,,SI,Mensual,347.778,405.1,2024-06-07
+D00124,Soluciones VerdeVida ONG,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,Observación DE,Monotributista,20123456789,2024-02-01,,SI,Mensual,295.364,405.1,2024-07-18
+D00124,Soluciones VerdeVida ONG,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,Observación DE,Monotributista,20123456789,2024-02-01,,SI,Mensual,250.149,405.1,2024-08-03
+D00124,Soluciones VerdeVida ONG,ONG,Contacto DSF,ana.solis@verdevida.com,(+)54 9 11 1234 5678,Observación DE,Monotributista,20123456789,2024-02-01,,SI,Mensual,473.575,405.1,2024-09-01
+D00125,Innovación Global S.A,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,Observación DG,Responsable Inscripto,27234567891,2024-02-02,,SI,Mensual,35.115,403.103,2024-02-02
+D00125,Innovación Global S.A,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,Observación DG,Responsable Inscripto,27234567891,2024-02-02,,SI,Mensual,43.29,403.103,2024-03-18
+D00125,Innovación Global S.A,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,Observación DG,Responsable Inscripto,27234567891,2024-02-02,,SI,Mensual,60.901,403.103,2024-04-07
+D00125,Innovación Global S.A,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,Observación DG,Responsable Inscripto,27234567891,2024-02-02,,SI,Mensual,92.342,403.103,2024-05-24
+D00125,Innovación Global S.A,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,Observación DG,Responsable Inscripto,27234567891,2024-02-02,,SI,Mensual,17.892,403.103,2024-06-10
+D00125,Innovación Global S.A,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,Observación DG,Responsable Inscripto,27234567891,2024-02-02,,SI,Mensual,63.032,403.103,2024-07-28
+D00125,Innovación Global S.A,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,Observación DG,Responsable Inscripto,27234567891,2024-02-02,,SI,Mensual,29.556,403.103,2024-08-15
+D00125,Innovación Global S.A,Empresa,Contacto DDD,carlos.martinez@innovacionglobal.com,(+)55 21 9876 5432,Observación DG,Responsable Inscripto,27234567891,2024-02-02,,SI,Mensual,42.628,403.103,2024-09-05
+D00126,Empresas FuturoBrillante SAS,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,Observación DED,Responsable Inscripto,30345678902,2024-02-03,,SI,Mensual,64.959,403.103,2024-02-03
+D00126,Empresas FuturoBrillante SAS,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,Observación DED,Responsable Inscripto,30345678902,2024-02-03,,SI,Mensual,45.976,403.103,2024-03-17
+D00126,Empresas FuturoBrillante SAS,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,Observación DED,Responsable Inscripto,30345678902,2024-02-03,,SI,Mensual,173.308,403.103,2024-04-08
+D00126,Empresas FuturoBrillante SAS,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,Observación DED,Responsable Inscripto,30345678902,2024-02-03,,SI,Mensual,225.9,403.103,2024-05-23
+D00126,Empresas FuturoBrillante SAS,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,Observación DED,Responsable Inscripto,30345678902,2024-02-03,,SI,Mensual,244.932,403.103,2024-06-12
+D00126,Empresas FuturoBrillante SAS,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,Observación DED,Responsable Inscripto,30345678902,2024-02-03,,SI,Mensual,506.437,403.103,2024-07-30
+D00126,Empresas FuturoBrillante SAS,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,Observación DED,Responsable Inscripto,30345678902,2024-02-03,,SI,Mensual,234.53,403.103,2024-08-15
+D00126,Empresas FuturoBrillante SAS,Empresa,Contacto AHH,laura.perez@futurobrillante.com,(+)56 9 8765 4321,Observación DED,Responsable Inscripto,30345678902,2024-02-03,,SI,Mensual,531.085,403.103,2024-09-05
+D00127,Horizonte Ecológico ONG,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,Observación DRF,Monotributista,23456789013,2024-01-04,,SI,Mensual,487.746,405.1,2024-01-04
+D00127,Horizonte Ecológico ONG,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,Observación DRF,Monotributista,23456789013,2024-01-04,,SI,Mensual,459.222,405.1,2024-02-18
+D00127,Horizonte Ecológico ONG,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,Observación DRF,Monotributista,23456789013,2024-01-04,,SI,Mensual,232.185,405.1,2024-03-07
+D00127,Horizonte Ecológico ONG,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,Observación DRF,Monotributista,23456789013,2024-01-04,,SI,Mensual,351.798,405.1,2024-04-22
+D00127,Horizonte Ecológico ONG,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,Observación DRF,Monotributista,23456789013,2024-01-04,,SI,Mensual,546.208,405.1,2024-05-10
+D00127,Horizonte Ecológico ONG,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,Observación DRF,Monotributista,23456789013,2024-01-04,,SI,Mensual,584.457,405.1,2024-06-26
+D00127,Horizonte Ecológico ONG,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,Observación DRF,Monotributista,23456789013,2024-01-04,,SI,Mensual,420.123,405.1,2024-07-15
+D00127,Horizonte Ecológico ONG,ONG,Contacto AWW,juan.rodriguez@horizonteecologico.com,(+)52 55 1234 5678,Observación DRF,Monotributista,23456789013,2024-01-04,,SI,Mensual,268.596,405.1,2024-08-05
+D00128,Fundación UniCorp ONG,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,Observación GG,Monotributista,33567890124,2024-02-05,,SI,Mensual,90.795,405.1,2024-02-05
+D00128,Fundación UniCorp ONG,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,Observación GG,Monotributista,33567890124,2024-02-05,,SI,Mensual,75.887,405.1,2024-03-20
+D00128,Fundación UniCorp ONG,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,Observación GG,Monotributista,33567890124,2024-02-05,,SI,Mensual,97.534,405.1,2024-04-08
+D00128,Fundación UniCorp ONG,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,Observación GG,Monotributista,33567890124,2024-02-05,,SI,Mensual,117.968,405.1,2024-05-25
+D00128,Fundación UniCorp ONG,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,Observación GG,Monotributista,33567890124,2024-02-05,,SI,Mensual,359.06,405.1,2024-06-12
+D00128,Fundación UniCorp ONG,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,Observación GG,Monotributista,33567890124,2024-02-05,,SI,Mensual,523.2,405.1,2024-07-30
+D00128,Fundación UniCorp ONG,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,Observación GG,Monotributista,33567890124,2024-02-05,,SI,Mensual,329.953,405.1,2024-08-15
+D00128,Fundación UniCorp ONG,ONG,Contacto ASEE,marta.gonzalez@unicorp.org,(+)57 300 123 4567,Observación GG,Monotributista,33567890124,2024-02-05,,SI,Mensual,471.594,405.1,2024-09-05
+D00129,Corporación NovaTech S.A,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,Observación II,Responsable Inscripto,30987654321,2023-01-01,,SI,Mensual,298.586,403.103,2023-01-01
+D00129,Corporación NovaTech S.A,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,Observación II,Responsable Inscripto,30987654321,2023-01-01,,SI,Mensual,484.258,403.103,2023-02-12
+D00129,Corporación NovaTech S.A,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,Observación II,Responsable Inscripto,30987654321,2023-01-01,,SI,Mensual,445.529,403.103,2023-03-07
+D00129,Corporación NovaTech S.A,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,Observación II,Responsable Inscripto,30987654321,2023-01-01,,SI,Mensual,541.508,403.103,2023-04-21
+D00129,Corporación NovaTech S.A,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,Observación II,Responsable Inscripto,30987654321,2023-01-01,,SI,Mensual,440.936,403.103,2023-05-10
+D00129,Corporación NovaTech S.A,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,Observación II,Responsable Inscripto,30987654321,2023-01-01,,SI,Mensual,312.491,403.103,2023-06-28
+D00129,Corporación NovaTech S.A,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,Observación II,Responsable Inscripto,30987654321,2023-01-01,,SI,Mensual,269.664,403.103,2023-07-15
+D00129,Corporación NovaTech S.A,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,Observación II,Responsable Inscripto,30987654321,2023-01-01,,SI,Mensual,447.841,403.103,2023-08-09
+D00129,Corporación NovaTech S.A,Empresa,Contacto ATEC,gerencia@novatech.com,(+)57 300 123 4567,Observación II,Responsable Inscripto,30987654321,2023-01-01,,SI,Mensual,500.982,403.103,2023-09-02
+D00130,Servicios Plus SAS,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,Observación IIA,Responsable Inscripto,30457652322,2023-01-02,,SI,Mensual,86.419,405.1,2023-01-02
+D00130,Servicios Plus SAS,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,Observación IIA,Responsable Inscripto,30457652322,2023-01-02,,SI,Mensual,18.374,405.1,2023-02-16
+D00130,Servicios Plus SAS,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,Observación IIA,Responsable Inscripto,30457652322,2023-01-02,,SI,Mensual,51.045,405.1,2023-03-08
+D00130,Servicios Plus SAS,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,Observación IIA,Responsable Inscripto,30457652322,2023-01-02,,SI,Mensual,76.343,405.1,2023-04-22
+D00130,Servicios Plus SAS,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,Observación IIA,Responsable Inscripto,30457652322,2023-01-02,,SI,Mensual,249.539,405.1,2023-05-12
+D00130,Servicios Plus SAS,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,Observación IIA,Responsable Inscripto,30457652322,2023-01-02,,SI,Mensual,251.13,405.1,2023-06-30
+D00130,Servicios Plus SAS,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,Observación IIA,Responsable Inscripto,30457652322,2023-01-02,,SI,Mensual,472.79,405.1,2023-07-14
+D00130,Servicios Plus SAS,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,Observación IIA,Responsable Inscripto,30457652322,2023-01-02,,SI,Mensual,470.152,405.1,2023-08-05
+D00130,Servicios Plus SAS,Empresa,Contacto AT,luis.gonzalez@ecoplus.com,(+)57 301 234 5678,Observación IIAA,Responsable Inscripto,30457652322,2023-01-02,,SI,Mensual,570.995,405.1,2023-09-18
+D00131,InnovaLogix S.A,Campaña,Contacto IT,carla.fernandez@innovalogix.com,(+)55 301 234 5678,Observación IIA,Exento,27654321098,2023-01-01,,SI,Bimestral,329.958,405.1,2023-01-01
+D00131,InnovaLogix S.A,Campaña,Contacto IT,carla.fernandez@innovalogix.com,(+)55 301 234 5678,Observación IIA,Exento,27654321098,2023-01-01,,SI,Bimestral,242.085,405.1,2023-03-01
+D00131,InnovaLogix S.A,Campaña,Contacto IT,carla.fernandez@innovalogix.com,(+)55 301 234 5678,Observación IIA,Exento,27654321098,2023-01-01,,SI,Bimestral,460.201,405.1,2023-05-01
+D00131,InnovaLogix S.A,Campaña,Contacto IT,carla.fernandez@innovalogix.com,(+)55 301 234 5678,Observación IIA,Exento,27654321098,2023-01-01,,SI,Bimestral,572.372,405.1,2023-07-01
+D00131,InnovaLogix S.A,Campaña,Contacto IT,carla.fernandez@innovalogix.com,(+)55 301 234 5678,Observación IIA,Exento,27654321098,2023-01-01,,SI,Bimestral,408.599,405.1,2023-09-01
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,29.12,405.1,2021-01-02
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,88.565,405.1,2021-02-16
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,88.682,405.1,2021-03-08
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,28.523,405.1,2021-04-22
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,13.24,405.1,2021-05-12
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,27.493,405.1,2021-06-30
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,222.261,405.1,2021-07-14
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,102.864,405.1,2021-08-05
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,228.71,405.1,2021-09-19
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,291.54,405.1,2021-10-03
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,366.63,405.1,2021-11-22
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,446.985,405.1,2021-12-09
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,326.348,405.1,2022-01-03
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,429.54,405.1,2022-02-18
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,303.796,405.1,2022-03-07
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,262.362,405.1,2022-04-25
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,523.067,405.1,2022-05-12
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,534.547,405.1,2022-06-30
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,307.194,405.1,2022-07-15
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,462.809,405.1,2022-08-09
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,434.394,405.1,2022-09-23
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,291.606,405.1,2022-10-07
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,217.008,405.1,2022-11-20
+D00132,VíaVerde SRL,Campaña,Contacto RCO,eco@viaverde.com,(+)56 9 8765 4321,,Responsable Inscripto,27784341099,2021-01-02,2023-01-03,NO,Mensual,592.642,405.1,2022-12-05
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,74.488,405.1,2022-01-21
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,14.428,405.1,2022-02-14
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,47.448,405.1,2022-03-07
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,67.094,405.1,2022-04-22
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,59.924,405.1,2022-05-10
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,46.713,405.1,2022-06-30
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,59.286,405.1,2022-07-15
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,89.666,405.1,2022-08-04
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,81.847,405.1,2022-09-19
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,83.619,405.1,2022-10-05
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,166.344,405.1,2022-11-23
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,174.132,405.1,2022-12-09
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,570.388,405.1,2023-01-02
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,349.275,405.1,2023-02-16
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,561.428,405.1,2023-03-08
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,579.438,405.1,2023-04-25
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,359.406,405.1,2023-05-12
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,590.415,405.1,2023-06-30
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,410.481,405.1,2023-07-14
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,234.722,405.1,2023-08-09
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,334.523,405.1,2023-09-22
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,366.542,405.1,2023-10-07
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,537.16,405.1,2023-11-19
+D00133,Energía Futuro SA,Empresa,Contacto AEF,maria.lopez@energiasfuturo.com,(+)55 21 9876 5432,Observación MM,IVA Responsable Inscripto,30678912347,2022-01-01,2023-12-31,NO,Mensual,553.331,405.1,2023-12-05
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,356.962,405.1,2023-01-01
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,263.071,405.1,2023-02-15
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,525.33,405.1,2023-03-08
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,508.349,405.1,2023-04-23
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,501.922,405.1,2023-05-12
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,462.336,405.1,2023-06-30
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,445.924,405.1,2023-07-14
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,341.986,405.1,2023-08-05
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,307.348,405.1,2023-09-19
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,449.104,405.1,2023-10-03
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,265.027,405.1,2023-11-22
+D00134,Energía Sustentable S.A,Campaña,Contacto AES,maria.lopez@energiasustentable.com,(+)55 21 9876 5432,Observación MM,Responsable Inscripto,33123456789,2023-01-01,2023-12-31,NO,Mensual,547.298,405.1,2023-12-09
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,60.805,405.1,2020-01-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,32.127,405.1,2020-03-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,63.835,405.1,2020-05-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,84.204,405.1,2020-07-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,121.573,405.1,2020-09-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,179.927,405.1,2020-11-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,433.438,405.1,2021-01-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,526.926,405.1,2021-03-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,271.642,405.1,2021-05-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,400.338,405.1,2021-07-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,545.228,405.1,2021-09-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,244.089,405.1,2021-11-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,569.863,405.1,2022-01-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,465.762,405.1,2022-03-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,268.395,405.1,2022-05-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,694.3,405.1,2022-07-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,676.067,405.1,2022-09-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,727.911,405.1,2022-11-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,538.554,405.1,2023-01-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,572.337,405.1,2023-03-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,604.351,405.1,2023-05-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,563.349,405.1,2023-07-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,697.998,405.1,2023-09-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,675.277,405.1,2023-11-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,747.671,405.1,2024-01-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,607.88,405.1,2024-03-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,668.347,405.1,2024-05-01
+D00135,Logística Global SRL,Campaña,Contacto ALG,global@logisticaglobal.com,(+)56 9 7654 3210,Observación NN,Monotributista,20987654321,2020-01-01,,SI,Bimestral,761.671,405.1,2024-07-01
+D00136,AgroIndustrias del Sur SA,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,Observación OO,IVA Responsable Inscripto,33112233445,2024-01-01,,SI,Mensual,771.106,405.1,2024-01-01
+D00136,AgroIndustrias del Sur SA,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,Observación OO,IVA Responsable Inscripto,33112233445,2024-01-01,,SI,Mensual,626.668,405.1,2024-02-15
+D00136,AgroIndustrias del Sur SA,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,Observación OO,IVA Responsable Inscripto,33112233445,2024-01-01,,SI,Mensual,647.753,405.1,2024-03-08
+D00136,AgroIndustrias del Sur SA,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,Observación OO,IVA Responsable Inscripto,33112233445,2024-01-01,,SI,Mensual,571.778,405.1,2024-04-22
+D00136,AgroIndustrias del Sur SA,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,Observación OO,IVA Responsable Inscripto,33112233445,2024-01-01,,SI,Mensual,783.804,405.1,2024-05-10
+D00136,AgroIndustrias del Sur SA,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,Observación OO,IVA Responsable Inscripto,33112233445,2024-01-01,,SI,Mensual,578.491,405.1,2024-06-30
+D00136,AgroIndustrias del Sur SA,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,Observación OO,IVA Responsable Inscripto,33112233445,2024-01-01,,SI,Mensual,770.156,405.1,2024-07-14
+D00136,AgroIndustrias del Sur SA,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,Observación OO,IVA Responsable Inscripto,33112233445,2024-01-01,,SI,Mensual,648.108,405.1,2024-08-05
+D00136,AgroIndustrias del Sur SA,Agroindustria,Contacto AAS,laura.garcia@agroindustrias.com,(+)57 300 876 5432,Observación OO,IVA Responsable Inscripto,33112233445,2024-01-01,,SI,Mensual,556.901,405.1,2024-09-02
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,46.148,405.1,2022-06-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,23.153,405.1,2022-07-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,83.712,405.1,2022-08-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,55.339,405.1,2022-09-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,65.179,405.1,2022-10-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,173.595,405.1,2022-11-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,116.913,405.1,2022-12-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,447.298,405.1,2023-01-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,307.698,405.1,2023-02-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,464.627,405.1,2023-03-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,294.917,405.1,2023-04-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,273.536,405.1,2023-05-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,477.167,405.1,2023-06-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,345.24,405.1,2023-07-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,578.153,405.1,2023-08-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,255.436,405.1,2023-09-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,630.203,405.1,2023-10-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,788.229,405.1,2023-11-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,667.281,405.1,2023-12-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,663.026,405.1,2024-01-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,575.89,405.1,2024-02-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,704.002,405.1,2024-03-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,776.587,405.1,2024-04-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,700.318,405.1,2024-05-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,782.687,405.1,2024-06-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,711.56,405.1,2024-07-05
+D00137,TecnoAvanzado SRL,Tecnología,Contacto ATS,roberto.sanchez@tecnoavanzado.com,(+)54 9 11 6543 2109,Observación PP,Monotributista,20223344556,2022-06-05,,SI,Mensual,768.202,405.1,2024-08-05
+D00138,Innovación Solar S.A,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,Observación QQ,Responsable Inscripto,30998877667,2024-02-02,,SI,Mensual,71.381,405.1,2024-02-02
+D00138,Innovación Solar S.A,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,Observación QQ,Responsable Inscripto,30998877667,2024-02-02,,SI,Mensual,55.346,405.1,2024-03-12
+D00138,Innovación Solar S.A,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,Observación QQ,Responsable Inscripto,30998877667,2024-02-02,,SI,Mensual,66.576,405.1,2024-04-08
+D00138,Innovación Solar S.A,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,Observación QQ,Responsable Inscripto,30998877667,2024-02-02,,SI,Mensual,83.697,405.1,2024-05-25
+D00138,Innovación Solar S.A,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,Observación QQ,Responsable Inscripto,30998877667,2024-02-02,,SI,Mensual,40.499,405.1,2024-06-10
+D00138,Innovación Solar S.A,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,Observación QQ,Responsable Inscripto,30998877667,2024-02-02,,SI,Mensual,41.123,405.1,2024-07-28
+D00138,Innovación Solar S.A,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,Observación QQ,Responsable Inscripto,30998877667,2024-02-02,,SI,Mensual,15.614,405.1,2024-08-15
+D00138,Innovación Solar S.A,Campaña,Contacto AIS,julia.martinez@innovacionsolar.com,(+)52 55 1234 5678,Observación QQ,Responsable Inscripto,30998877667,2024-02-02,,SI,Mensual,34.964,405.1,2024-09-05
+D00139,TechGreen Innovación SRL,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,Observación TT,IVA Responsable Inscripto,25678901230,2024-04-01,,SI,Mensual,551.05,405.1,2024-04-01
+D00139,TechGreen Innovación SRL,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,Observación TT,IVA Responsable Inscripto,25678901230,2024-04-01,,SI,Mensual,700.29,405.1,2024-05-15
+D00139,TechGreen Innovación SRL,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,Observación TT,IVA Responsable Inscripto,25678901230,2024-04-01,,SI,Mensual,565.167,405.1,2024-06-08
+D00139,TechGreen Innovación SRL,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,Observación TT,IVA Responsable Inscripto,25678901230,2024-04-01,,SI,Mensual,635.642,405.1,2024-07-22
+D00139,TechGreen Innovación SRL,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,Observación TT,IVA Responsable Inscripto,25678901230,2024-04-01,,SI,Mensual,642.222,405.1,2024-08-10
+D00139,TechGreen Innovación SRL,Agroindustria,Contacto ATG,tech@techgreeninnovacion.com,(+)54 9 11 4567 8901,Observación TT,IVA Responsable Inscripto,25678901230,2024-04-01,,SI,Mensual,514.844,405.1,2024-09-01
+D00140,EcoTransporte SA,Estado,Contacto AET,fernando.lopez@ecotransporte.com,(+)54 9 11 8765 4321,Observación SS,Exento,30334455667,2022-04-01,2023-12-01,NO,Semestral,496.574,405.1,2022-04-01
+D00140,EcoTransporte SA,Estado,Contacto AET,fernando.lopez@ecotransporte.com,(+)54 9 11 8765 4321,Observación SS,Exento,30334455667,2022-04-01,2023-12-01,NO,Semestral,444.382,405.1,2022-10-01
+D00140,EcoTransporte SA,Estado,Contacto AET,fernando.lopez@ecotransporte.com,(+)54 9 11 8765 4321,Observación SS,Exento,30334455667,2022-04-01,2023-12-01,NO,Semestral,488.44,405.1,2023-04-01
+D00140,EcoTransporte SA,Estado,Contacto AET,fernando.lopez@ecotransporte.com,(+)54 9 11 8765 4321,Observación SS,Exento,30334455667,2022-04-01,2023-12-01,NO,Semestral,309.601,405.1,2023-10-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,51.713,405.1,2021-01-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,109.533,405.1,2021-04-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,117.472,405.1,2021-07-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,104.618,405.1,2021-10-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,39.42,405.1,2022-01-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,46.331,405.1,2022-04-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,40.212,405.1,2022-07-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,64.932,405.1,2022-10-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,81.503,405.1,2023-01-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,73.476,405.1,2023-04-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,117.902,405.1,2023-07-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,38.437,405.1,2023-10-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,73.466,405.1,2024-01-01
+D00141,Apoyo Social Universal GOB,Estado,Contacto AK,apoyosocialuniversal@example.com,(+)54 9 11 8765 5588,Observación SSA,Exento,30336755668,2021-01-01,2024-06-01,NO,Trimestral,115.458,405.1,2024-04-01
+D00142,Bebidas S.A,Campaña,Contacto GHY,bebidassa@mail.com,(+)52 55 1234 4324,Observación QQ,Responsable Inscripto,34387655660,2024-01-01,2024-05-30,NO,Mensual,57.632,403.103,2024-01-01
+D00142,Bebidas S.A,Campaña,Contacto GHY,bebidassa@mail.com,(+)52 55 1234 4324,Observación QQ,Responsable Inscripto,34387655660,2024-01-01,2024-05-30,NO,Mensual,88.336,403.103,2024-02-15
+D00142,Bebidas S.A,Campaña,Contacto GHY,bebidassa@mail.com,(+)52 55 1234 4324,Observación QQ,Responsable Inscripto,34387655660,2024-01-01,2024-05-30,NO,Mensual,58.897,403.103,2024-03-08
+D00142,Bebidas S.A,Campaña,Contacto GHY,bebidassa@mail.com,(+)52 55 1234 4324,Observación QQ,Responsable Inscripto,34387655660,2024-01-01,2024-05-30,NO,Mensual,33.079,403.103,2024-04-22
+D00142,Bebidas S.A,Campaña,Contacto GHY,bebidassa@mail.com,(+)52 55 1234 4324,Observación QQ,Responsable Inscripto,34387655660,2024-01-01,2024-05-30,NO,Mensual,24.515,403.103,2024-05-10
