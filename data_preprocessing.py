@@ -3,6 +3,7 @@ import pandas as pd
 
 
 class DataProcessor:
+    """Class for processing raw data files and saving processed data."""
     def __init__(self, raw_data_folder, processed_data_folder):
         """
         Initializes the DataProcessor with raw and processed data folders.

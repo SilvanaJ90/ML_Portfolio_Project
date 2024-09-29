@@ -25,6 +25,7 @@ Base = declarative_base()
 
 
 class Donantes(Base):
+    """Represents the 'donantes' table in the database."""
     __tablename__ = 'donantes'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
@@ -47,6 +48,7 @@ class Donantes(Base):
 
 
 class Proveedores(Base):
+    """Represents the 'proveedores' table in the database."""
     __tablename__ = 'proveedores'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
@@ -66,6 +68,7 @@ class Proveedores(Base):
 
 
 class IngresoEgreso(Base):
+    """Represents the 'ingreso_egreso' table in the database."""
     __tablename__ = 'ingreso_egreso'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
