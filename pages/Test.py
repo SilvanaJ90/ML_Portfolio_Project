@@ -3,6 +3,20 @@ from sqlalchemy import create_engine, text
 import os
 import streamlit as st
 
+st.markdown("""
+    <style>
+        [data-testid="stSidebar"] {
+            background-color: #262730;
+        }
+
+        [data-testid="stSidebar"] .css-1d391kg {
+            color: white;
+        }
+
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Get environment variables
 DATABASE_URL = (
     f"postgresql://{os.getenv('POSTGRES_USER')}:"
@@ -50,10 +64,10 @@ def run_tests():
     return results
 
 
-st.title("SQL Query Test Results")
+st.title("Resultados de la prueba de consulta SQL")
 
 
-if st.button("Run Tests"):
+if st.button("Ejecutar Test"):
     results = run_tests()
 
     # Display the results in a table

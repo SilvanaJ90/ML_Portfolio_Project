@@ -36,6 +36,20 @@ def get_sql_agent():
     return create_sql_agent(llm, db=db, verbose=True)
 
 
+st.markdown("""
+    <style>
+        [data-testid="stSidebar"] {
+            background-color: #262730;
+        }
+
+        [data-testid="stSidebar"] .css-1d391kg {
+            color: white;
+        }
+
+        }
+    </style>
+""", unsafe_allow_html=True)
+
 # Application Title
 st.title("Agent SQL")
 
@@ -50,8 +64,7 @@ if st.button("Enviar"):
     if question.strip() == "":
         st.warning("Por favor, ingresa una pregunta.")
     else:
-        # Display the question in the chat
-        chat_history.append(f"Usuario: {question}")
+        chat_history.append(f"🧑‍💻: {question}")
 
         # Get the SQL agent
         agent = get_sql_agent()
@@ -65,7 +78,7 @@ if st.button("Enviar"):
         # Extract the response from the result
         response = result.get(
             'output', 'Lo siento, no pude encontrar la respuesta.')
-        chat_history.append(f"Agent: {response}")
+        chat_history.append(f":robot_face: {response}")
 
         # Display the chat history
         chat_box.text('\n'.join(chat_history))
