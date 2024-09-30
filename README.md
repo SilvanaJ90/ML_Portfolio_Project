@@ -46,7 +46,7 @@ https://github.com/user-attachments/assets/4a903503-0232-4312-b73b-6aa52dbae4b4
 
 | Step                       | Command                                    | Description                                                             |
 |----------------------------|--------------------------------------------|-------------------------------------------------------------------------|
-| **Clone the project**       | `git clone https://github.com/SilvanaJ90/ml_portfolio_project.git` | Clone the project repository to your local machine.                    |
+| **Clone the project**       | `https://github.com/SilvanaJ90/agent_sql.git` | Clone the project repository to your local machine.                    |
 | **Create Google AI API key**| `GOOGLE_API_KEY=your_api_key`              | Create a Google AI API key and save it in a `.env` file.                |
 | **Install dependencies**    | `pip install -r requirements.txt`          | Install all required dependencies for the project.                      |
 | **Create the database and user** | `models/setup_postgres_dev.sql`      | Create the project's PostgreSQL database and user by running this SQL script. |
