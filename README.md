@@ -45,10 +45,10 @@ video
 | **Install dependencies**    | `pip install -r requirements.txt`          | Install all required dependencies for the project.                      |
 | **Create the database and user** | `models/setup_postgres_dev.sql`      | Create the project's PostgreSQL database and user by running this SQL script. |
 | **Run models.py**           | `models/models.py`                         | Execute the script to create the database tables.                       |
-| **Data processing**         | `data_preprocessing.py`                    | Process the CSV file and prepare it for database insertion.             |
+| **Data processing**         | `data/data_preprocessing.py`                    | Process the CSV file and prepare it for database insertion.             |
 | **Insert data into the database** | `data/insert_data.py`               | Insert the processed CSV data into the database tables.                 |
-| **Run the SQL agent**       | `streamlit run app.py`                     | Run the app with Streamlit, which allows users to query the database through an SQL agent. |
-| **Run tests (optional)**    | `streamlit run tests.py`                   | For testing purposes, execute the test cases by running the tests file with Streamlit. |
+| **Run the SQL agent**       | `streamlit run Home.py`                     | Run the app with Streamlit, which allows users to query the database through an SQL agent. |
+
 
 
 
