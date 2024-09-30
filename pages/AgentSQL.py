@@ -13,7 +13,7 @@ genai.configure(api_key=API_KEY)
 
 
 def get_sql_agent():
-    """ Function to create the connection and the agent """
+    """Function to create the connection and the agent."""
     DATABASE_URL = (
         f"postgresql://{os.getenv('POSTGRES_USER')}:"
         f"{os.getenv('POSTGRES_PASSWORD')}@"
@@ -30,22 +30,27 @@ def get_sql_agent():
 
     # Instantiate the Google Generative AI model
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash", google_api_key=API_KEY)
+        model="gemini-1.5-flash", google_api_key=API_KEY
+    )
 
     # Create the SQL agent
     return create_sql_agent(llm, db=db, verbose=True)
 
 
+# Streamlit app styling
 st.markdown("""
     <style>
         [data-testid="stSidebar"] {
             background-color: #262730;
         }
-
         [data-testid="stSidebar"] .css-1d391kg {
             color: white;
         }
-
+        .st-chat-message {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 5px 0;
         }
     </style>
 """, unsafe_allow_html=True)
@@ -53,32 +58,41 @@ st.markdown("""
 # Application Title
 st.title("Agent SQL")
 
-# Create a container for the chat
-chat_box = st.empty()
-chat_history = []
+# Initialize chat history in session state
+if 'messages' not in st.session_state:
+    st.session_state.messages = []
 
-# Input field for the question
-question = st.text_input("Escribe tu pregunta...")
+# Display chat messages from history on app rerun
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
 
-if st.button("Enviar"):
-    if question.strip() == "":
-        st.warning("Por favor, ingresa una pregunta.")
-    else:
-        chat_history.append(f"🧑‍💻: {question}")
+# Accept user input
+if prompt := st.chat_input("Escribe tu pregunta..."):
+    # Add user message to chat history
+    st.session_state.messages.append({"role": "user", "content": f" {prompt}"})
 
-        # Get the SQL agent
-        agent = get_sql_agent()
+    # Display user message in chat message container
+    with st.chat_message("user"):
+        st.markdown(f" {prompt}")
 
-        # Create the user message
-        human_message = HumanMessage(content=question)
+    # Get the SQL agent
+    agent = get_sql_agent()
 
-        # Invoke the agent with the message
-        result = agent.invoke([human_message])
+    # Create the user message
+    human_message = HumanMessage(content=prompt)
 
-        # Extract the response from the result
-        response = result.get(
-            'output', 'Lo siento, no pude encontrar la respuesta.')
-        chat_history.append(f":robot_face: {response}")
+    # Invoke the agent with the message
+    result = agent.invoke([human_message])
 
-        # Display the chat history
-        chat_box.text('\n'.join(chat_history))
+    # Extract the response from the result
+    response = result.get(
+        'output', 'Lo siento, no pude encontrar la respuesta.')
+
+    # Display assistant response in chat message container
+    with st.chat_message("assistant"):
+        st.markdown(f"{response}")
+
+    # Add assistant response to chat history
+    st.session_state.messages.append(
+        {"role": "assistant", "content": f" {response}"})

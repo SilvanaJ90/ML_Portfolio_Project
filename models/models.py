@@ -41,7 +41,7 @@ class Donantes(Base):
     activo = Column(String(5))
     frecuencia = Column(String(50))
     importe = Column(Numeric(10, 2))
-    nro_cuenta = Column(BigInteger)
+    nro_cuenta = Column(String(20))
     fecha_donacion = Column(DateTime)
 
 
@@ -60,7 +60,7 @@ class Proveedores(Base):
     telefono = Column(String(20))
     importe = Column(Numeric(10, 2))
     fecha = Column(DateTime)
-    nro_cuenta = Column(BigInteger)
+    nro_cuenta = Column(String(20))
     ciudad = Column(String(50))
     pais = Column(String(50))
 
@@ -70,7 +70,7 @@ class IngresoEgreso(Base):
     __tablename__ = 'ingreso_egreso'
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    nro_cuenta = Column(BigInteger)
+    nro_cuenta = Column(String(20))
     nombre_cuenta = Column(String(50))
     tipo_cuenta = Column(String(50))
     descripcion = Column(String(255))
