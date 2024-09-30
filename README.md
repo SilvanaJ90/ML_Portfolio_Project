@@ -11,58 +11,45 @@
 - [Languages and Tools](https://github.com/SilvanaJ90/ML-Portfolio?tab=readme-ov-file#languages-and-tools)
 - [Authors](https://github.com/SilvanaJ90/ML-Portfolio?tab=readme-ov-file#authors)
 
-### General project requirements
-EleganceAI is built on a robust RAG system, leveraging key technologies:
+### General Project Requirements
 
-- LLM (Large Language Models) to provide consistent, automated responses to customer inquiries.
-- NLP (Natural Language Processing) to understand customer context and generate personalized recommendations.
-- Database and API integration to manage backend tasks like quotes, payments, and shipment tracking.
+- **Python Version**: Ensure Python 3.x is installed.
+- **Dependencies**: Required Python libraries must be installed (listed in `requirements.txt`).
+- **PostgreSQL**: A PostgreSQL database server must be set up and accessible.
+- **Google AI API Key**: A valid API key must be created and stored in a `.env` file.
+- **Streamlit**: Streamlit should be installed to run the web application interface.
+- **Data Files**: CSV files to be processed and inserted into the database should be available in the specified directory.
 
-### General functionalities
+### General Functionalities
 
-The development of EleganceAI is structured into several key stages, each focusing on different aspects of the project:
+- **Data Processing**: The application can read, process, and clean data from CSV files.
+- **Database Management**: read operations on a PostgreSQL database.
+- **User Interface**: A web-based interface built with Streamlit for user interaction.
+- **Natural Language Queries**: Users can interact with the database using natural language queries, which are translated into SQL queries.
+- **Testing**: Ability to run test cases to ensure the application's functionality and reliability.
 
-- Backend Development
-    Creation and connection of databases.
-    Development of APIs, ensuring smooth integration with the e-commerce platform.
-
-- RAG System Development
-    Applying machine learning techniques to analyze customer preferences.
-    Predicting products of interest, focusing on web integration to display real-time, dynamic recommendations.
-
-### RAG System with LangChain Framework
-
-![This is an image](https://github.com/SilvanaJ90/ml_portfolio_project/blob/main/img/img.png)
-
-Agent SQL Architecture
-
-| Components     | File | Description |
-| -------------- | ------- | ----------- |
-|Data |[llm.py](https://github.com/SilvanaJ90/ML-Portfolio/blob/main/elegance/myapp/chatbot/llm.py)|The Model I/O focuses on basic inputs and outputs of the LLM, in this project the Google AI LLM  | 
-|Data connectors|[vector_db.py](https://github.com/SilvanaJ90/ML-Portfolio/blob/main/elegance/myapp/chatbot/vector_db.py)| Data connector focuses on connecting an LLM to a data source such as your own documents or a vector store|
-|Chains|[chain.py](https://github.com/SilvanaJ90/ML-Portfolio/blob/main/elegance/myapp/chatbot/chain.py) | Chains allow the output of one model to be linked as the input for another model call |
-|Memory|[memory.py](https://github.com/SilvanaJ90/ML-Portfolio/blob/main/elegance/myapp/chatbot/memory.py)  | Memory allows your models to retain the historical context of previous interactions |
-|Agent|[qa_bot.py](https://github.com/SilvanaJ90/ML-Portfolio/blob/main/elegance/myapp/chatbot/qa_bot.py) | Uses data connectors, data models, chains, memory, and provides a response to the user |
 
 ### AgentSQL
 
-EleganceAI offers a chatbot that provides a personalized experience for Accesorios Elegance customers,
-advising users on product choices and assisting with tasks like quotes and payments.
+![This is an image](https://github.com/SilvanaJ90/ml_portfolio_project/blob/main/img/img.png)
 
-https://github.com/user-attachments/assets/ecd1033d-d9c2-4c7b-87b4-0359d30bfda1
+
+video
 
 ### How to Start It
 
-- Clone the project
-```git clone   https://github.com/SilvanaJ90/ML-Portfolio.git ```
-- Create a Google AI API key and save it in a .env file
-```GOOGLE_API_KEY=your_api_key ```
-- Install the required dependencies using the following command
-``` pip install -r requirements.txt ```
-- Navigate to the repository and then to the project
-```cd elegance```
- - While inside the elegance project directory, run the server
-  ```python3 manage.py runserver ```
+| Step                       | Command                                    | Description                                                             |
+|----------------------------|--------------------------------------------|-------------------------------------------------------------------------|
+| **Clone the project**       | `git clone https://github.com/SilvanaJ90/ml_portfolio_project.git` | Clone the project repository to your local machine.                    |
+| **Create Google AI API key**| `GOOGLE_API_KEY=your_api_key`              | Create a Google AI API key and save it in a `.env` file.                |
+| **Install dependencies**    | `pip install -r requirements.txt`          | Install all required dependencies for the project.                      |
+| **Create the database and user** | `models/setup_postgres_dev.sql`      | Create the project's PostgreSQL database and user by running this SQL script. |
+| **Run models.py**           | `models/models.py`                         | Execute the script to create the database tables.                       |
+| **Data processing**         | `data_preprocessing.py`                    | Process the CSV file and prepare it for database insertion.             |
+| **Insert data into the database** | `data/insert_data.py`               | Insert the processed CSV data into the database tables.                 |
+| **Run the SQL agent**       | `streamlit run app.py`                     | Run the app with Streamlit, which allows users to query the database through an SQL agent. |
+| **Run tests (optional)**    | `streamlit run tests.py`                   | For testing purposes, execute the test cases by running the tests file with Streamlit. |
+
 
 
 
@@ -71,7 +58,10 @@ https://github.com/user-attachments/assets/ecd1033d-d9c2-4c7b-87b4-0359d30bfda1
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/> </a>
 <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/> </a>
 <a href="https://www.langchain.com/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/langchain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/> </a>
-  <a href="https://gemini.google.com" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/> </a>
+<a href="https://gemini.google.com" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/> </a>
+<a https://streamlit.io/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white"/> </a>
+<a https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white"/> </a>
+    
 </p>
 
 ## Author
