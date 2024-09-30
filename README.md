@@ -4,12 +4,12 @@
 
 ## Table of Contents
 
-- [General project requirements](https://github.com/SilvanaJ90/ML-Portfolio?tab=readme-ov-file#general-project-requirements)
-- [General functionalities](https://github.com/SilvanaJ90/ML-Portfolio?tab=readme-ov-file#general-functionalities)
-- [AgentSQL](https://github.com/SilvanaJ90/ML-Portfolio?tab=readme-ov-file#chatbot---eleganceai)
-- [How to Start It](https://github.com/SilvanaJ90/ML-Portfolio?tab=readme-ov-file#how-to-start-it)
-- [Languages and Tools](https://github.com/SilvanaJ90/ML-Portfolio?tab=readme-ov-file#languages-and-tools)
-- [Authors](https://github.com/SilvanaJ90/ML-Portfolio?tab=readme-ov-file#authors)
+- [General project requirements](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#general-project-requirements)
+- [General functionalities](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#general-functionalities)
+- [AgentSQL](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#agentsql)
+- [How to Start It](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#how-to-start-it)
+- [Languages and Tools](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#languages-and-tools)
+- [Authors](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#author)
 
 ### General Project Requirements
 
