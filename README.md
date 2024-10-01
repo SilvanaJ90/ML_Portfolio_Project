@@ -6,7 +6,7 @@
 
 - [General project requirements](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#general-project-requirements)
 - [General functionalities](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#general-functionalities)
-- [AgentSQL](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#agentsql)
+- [SQL AgentL](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#sqlagent)
 - [How to Start It](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#how-to-start-it)
 - [Languages and Tools](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#languages-and-tools)
 - [Authors](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#author)
@@ -29,7 +29,7 @@
 - **Testing**: Ability to run test cases to ensure the application's functionality and reliability.
 
 
-### AgentSQL
+### SQL Agent
 
 ![This is an image](https://github.com/SilvanaJ90/ml_portfolio_project/blob/main/img/img.png)
 
