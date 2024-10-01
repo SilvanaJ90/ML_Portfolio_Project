@@ -6,7 +6,7 @@
 
 - [General project requirements](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#general-project-requirements)
 - [General functionalities](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#general-functionalities)
-- [SQL AgentL](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#sqlagent)
+- [SQL AgentL](https://github.com/SilvanaJ90/sql_agent/tree/main?tab=readme-ov-file#sql-agent)
 - [How to Start It](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#how-to-start-it)
 - [Languages and Tools](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#languages-and-tools)
 - [Authors](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#author)
