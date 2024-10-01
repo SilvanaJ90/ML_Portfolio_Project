@@ -6,7 +6,7 @@
 
 - [General project requirements](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#general-project-requirements)
 - [General functionalities](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#general-functionalities)
-- [AgentSQL](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#agentsql)
+- [SQL AgentL](https://github.com/SilvanaJ90/sql_agent/tree/main?tab=readme-ov-file#sql-agent)
 - [How to Start It](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#how-to-start-it)
 - [Languages and Tools](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#languages-and-tools)
 - [Authors](https://github.com/SilvanaJ90/ml_portfolio_project/tree/main?tab=readme-ov-file#author)
@@ -29,18 +29,24 @@
 - **Testing**: Ability to run test cases to ensure the application's functionality and reliability.
 
 
-### AgentSQL
+### SQL Agent
 
 ![This is an image](https://github.com/SilvanaJ90/ml_portfolio_project/blob/main/img/img.png)
 
 
 video
 
+
+
+https://github.com/user-attachments/assets/4a903503-0232-4312-b73b-6aa52dbae4b4
+
+
+
 ### How to Start It
 
 | Step                       | Command                                    | Description                                                             |
 |----------------------------|--------------------------------------------|-------------------------------------------------------------------------|
-| **Clone the project**       | `git clone https://github.com/SilvanaJ90/ml_portfolio_project.git` | Clone the project repository to your local machine.                    |
+| **Clone the project**       | `https://github.com/SilvanaJ90/sql_agent.git` | Clone the project repository to your local machine.                    |
 | **Create Google AI API key**| `GOOGLE_API_KEY=your_api_key`              | Create a Google AI API key and save it in a `.env` file.                |
 | **Install dependencies**    | `pip install -r requirements.txt`          | Install all required dependencies for the project.                      |
 | **Create the database and user** | `models/setup_postgres_dev.sql`      | Create the project's PostgreSQL database and user by running this SQL script. |
