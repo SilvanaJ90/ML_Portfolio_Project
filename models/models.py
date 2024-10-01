@@ -1,8 +1,8 @@
 import os
 from sqlalchemy import (
     create_engine, Column, Integer,
-    String, BigInteger, Numeric,
-    DateTime, ForeignKey
+    String, Numeric,
+    DateTime
     )
 from sqlalchemy.orm import declarative_base, relationship, sessionmaker
 

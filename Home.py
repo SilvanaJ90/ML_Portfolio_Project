@@ -19,11 +19,11 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.write("# Bienvenido a la aplicación de Agent SQL ✨")
+st.write("# Bienvenido a la aplicación SQL Agent ✨")
 
 st.markdown(
     """
-Agent SQL es una  herramienta diseñada para facilitarla interacción
+SQL Agent es una  herramienta diseñada para facilitarla interacción
 con bases de datos SQL de manera intuitiva y eficiente.
 En esta plataforma,  puedes realizar consultas a tu base de datos
 y obtener respuestas en lenguaje natural, lo que te permite

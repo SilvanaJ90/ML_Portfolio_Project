@@ -7,3 +7,6 @@ google-generativeai
 pandas
 psycopg2-binary
 sqlalchemy
+datasets
+tensorflow
+transformers

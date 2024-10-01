@@ -56,7 +56,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Application Title
-st.title("Agent SQL")
+st.title("SQL Agent")
 
 # Initialize chat history in session state
 if 'messages' not in st.session_state:

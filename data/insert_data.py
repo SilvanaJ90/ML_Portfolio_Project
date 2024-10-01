@@ -5,11 +5,8 @@ from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy import text
 from sqlalchemy import create_engine
 import os
-from dotenv import load_dotenv
 import math
 
-# Load environment variables
-load_dotenv()
 
 # Get environment variables
 DATABASE_URL = (
