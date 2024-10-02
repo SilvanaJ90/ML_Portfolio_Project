@@ -34,7 +34,7 @@
 ![This is an image](https://github.com/SilvanaJ90/ml_portfolio_project/blob/main/img/img.png)
 
 
-[![Video SQL Agent](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=aW-0Lh-n8zg)
+[![Video SQL Agent](https://github.com/SilvanaJ90/sql_agent/blob/main/img/video.png)](https://www.youtube.com/watch?v=aW-0Lh-n8zg)
 
 
 
