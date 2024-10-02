@@ -34,11 +34,10 @@
 ![This is an image](https://github.com/SilvanaJ90/ml_portfolio_project/blob/main/img/img.png)
 
 
-video
+product_video: '[https://www.youtube-nocookie.com/embed/URL](https://www.youtube.com/watch?v=aW-0Lh-n8zg )'
+product_video_transcript: /content/video-transcripts/TRANSCR
 
 
-
-https://github.com/user-attachments/assets/4a903503-0232-4312-b73b-6aa52dbae4b4
 
 
 
