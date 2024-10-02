@@ -34,8 +34,7 @@
 ![This is an image](https://github.com/SilvanaJ90/ml_portfolio_project/blob/main/img/img.png)
 
 
-product_video: '[https://www.youtube-nocookie.com/embed/URL](https://www.youtube.com/watch?v=aW-0Lh-n8zg )'
-product_video_transcript: /content/video-transcripts/TRANSCR
+[![Video SQL Agent](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=aW-0Lh-n8zg)
 
 
 
