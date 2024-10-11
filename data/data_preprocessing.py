@@ -37,11 +37,15 @@ class DataProcessor:
             os.path.join(self.raw_data_folder, 'proveedores.csv'), ',')
         df3 = self.from_file(
             os.path.join(self.raw_data_folder, 'detalle_Ing_Egre.csv'), ',')
+        df4 = self.from_file(
+            os.path.join(self.raw_data_folder, 'contribuyente.csv'), ',')
+
 
         # Convert column names to lowercase
         df1.columns = df1.columns.str.lower()
         df2.columns = df2.columns.str.lower()
         df3.columns = df3.columns.str.lower()
+        df4.columns = df4.columns.str.lower()
 
         # Drop unwanted columns
         columns_to_drop_df1 = ['nombre.1', 'razon social', 'cargo']
@@ -54,15 +58,15 @@ class DataProcessor:
         df1 = df1.replace('-', '', regex=True)
 
         # Rename columns
-        df1, df2, df3 = self.rename_columns(df1, df2, df3)
+        df1, df2, df3, df4 = self.rename_columns(df1, df2, df3, df4)
 
         # Convert dates to datetime
         df1, df2 = self.convert_dates_and_clean(df1, df2)
 
         # Store the processed DataFrames
-        self.save_processed_data(df1, df2, df3)
+        self.save_processed_data(df1, df2, df3, df4)
 
-    def rename_columns(self, df1, df2, df3):
+    def rename_columns(self, df1, df2, df3, df4):
         """
         Rename columns in the DataFrames.
 
@@ -74,7 +78,6 @@ class DataProcessor:
         df1 = df1.rename(columns={
             'número': 'numero',
             'correo electrónico': 'correo',
-            'tipo de contribuyente': 'tipo_contribuyente',
             'nro de cuenta': 'nro_cuenta',
             'fecha de la donacion': 'fecha_donacion',
             'teléfono': 'telefono'
@@ -84,7 +87,6 @@ class DataProcessor:
             'número proveedor': 'nro_proveedor',
             'nombre proveedor': 'nombre_proveedor',
             'categor/a proveedor': 'categoria_proveedor',
-            'tipo de contribuyente': 'tipo_contribuyente',
             'correo electrónico': 'correo',
             'teléfono': 'telefono'
         })
@@ -93,11 +95,15 @@ class DataProcessor:
             'nro de cuenta': 'nro_cuenta',
             'nombre de cuenta': 'nombre_cuenta',
             'tipo de cuenta': 'tipo_cuenta',
-            'tipo de contribuyente': 'tipo_contribuyente',
             'descripción': 'descripcion'
         })
 
-        return df1, df2, df3
+        df4 = df4.rename(columns={
+            'tipo_contribuyente_id': 'tipo_contribuyente_id',
+            'tipo de contribuyente': 'tipo_contribuyente'
+        })
+
+        return df1, df2, df3, df4
 
     def convert_dates_and_clean(self, df1, df2):
         """
@@ -130,7 +136,7 @@ class DataProcessor:
 
         return df1, df2
 
-    def save_processed_data(self, df1, df2, df3):
+    def save_processed_data(self, df1, df2, df3, df4):
         """
         Save the processed DataFrames to CSV files.
 
@@ -149,6 +155,9 @@ class DataProcessor:
         df3.to_csv(
             os.path.join(self.processed_data_folder,
                          'ingreso_egreso.csv'), index=False)
+        df4.to_csv(
+            os.path.join(self.processed_data_folder,
+                         'contribuyente.csv'), index=False)
 
 
 # Usage of the class

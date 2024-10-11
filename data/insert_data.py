@@ -88,7 +88,7 @@ class DataInserter:
         Raises:
             Exception: If an error occurs during the insertion process.
         """
-        tables = ['donantes', 'proveedores', 'ingreso_egreso']
+        tables = ['contribuyente', 'ingreso_egreso', 'proveedores', 'donantes']
 
         try:
             for table in tables:
