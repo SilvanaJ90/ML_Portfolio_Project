@@ -2,4 +2,4 @@
 **/.env
 **/.DS_Store
 **/__pycache__
-SQLAgent.py
+SQLAgent_example.py
